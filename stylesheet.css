@@ -1,0 +1,15 @@
+body {
+    background-color: slategray;
+}
+
+.wrapper {
+    background-color: floralwhite;
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 900px;
+    margin: 4rem auto;
+}
+
+img {
+    max-width: 300px;    
+}
