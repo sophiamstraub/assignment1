@@ -1,5 +1,5 @@
-# Project 1
+# Assignment 1
 
- Kevin Hughes Project 1
+ Kevin Hughes Assignment 1
  
  HTML written by Kevin Hughes
