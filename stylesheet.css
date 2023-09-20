@@ -1,17 +1,92 @@
 /* Feel free to change or delete anything in this file. - Kevin */
 
 body {
-    background-color: slategray;
+    font-family: Tahoma;
 }
 
 .wrapper {
-    background-color: floralwhite;
-    padding: 2rem;
+    padding: 70px;
     margin: 2rem;
-    max-width: 900px;
+    max-width: 950px;
     margin: 4rem auto;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(42, 42, 120);
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+figure {
+    float: right;
+    padding: 20px;
+    border: solid 2px rgb(42, 42, 120);
+    border-radius: 20px 0px 20px 20px;
 }
 
 img {
-    max-width: 300px;    
+    max-width: 300px;  
+    border-radius: 20px 0px 00px 00px;
+    
+}
+
+figcaption {
+    color: gray;
+    margin-top: 15px;
+}
+
+h1 {
+    -webkit-text-stroke: 2px rgb(42, 42, 120); /*found online*/
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-weight: 300;
+    color: rgb(42, 42, 120)
+}
+
+h3 {
+    font-weight: 500;
+    color: rgb(42, 42, 120)
+}
+
+.asideWhite {
+    color: white;
+    font-size: large;
+}
+aside {
+    background-color: rgb(42, 42, 120);
+    border-radius: 20px 20px 20px 0px;
+    padding: 10px 10px 10px 25px;
+    max-width: 50%;
+    margin-bottom: 60px;
+}
+ul {
+    color: rgb(156, 195, 255);
+    list-style-type: none;
+    border-left: 2px solid rgb(156, 195, 255);
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li:hover {
+    color: white;
+}
+
+p {
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: gray;
 }
